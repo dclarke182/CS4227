@@ -11,7 +11,7 @@ public class main {
       ItemType Itemtype1 = new ItemType("Type 1", List.of(item3, item4));
       ItemType Itemtype2 = new ItemType("Type 2", List.of(item1));
 
-      ItemType data = new ItemType("data", List.of(Itemtype1, item1, item2, Itemtype2));
+      ItemType data = new ItemType("data", List.of(Itemtype1, Itemtype2));
       data.print();
    }
 }
