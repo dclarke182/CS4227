@@ -30,6 +30,9 @@ public class ItemType implements InventoryStock {
 
     @Override
     public void print() {
+        System.out.println("Printing the contents of the directory - " + ItemCatagory);
+        items.forEach(InventoryStock::print);
+        System.out.println("Done printing the contents of the directory - " + ItemCatagory );
 
     }
 }
