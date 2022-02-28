@@ -13,6 +13,8 @@ public class main {
 
       ItemType data = new ItemType("Stock", List.of(Itemtype1, Itemtype2));
       data.print();
+
+      System.out.println("Total Number of Pants available - " + Itemtype1.getTotalNumberOfItems());
    }
 }
 

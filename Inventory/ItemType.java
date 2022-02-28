@@ -24,15 +24,15 @@ public class ItemType implements InventoryStock {
         return items.get(position);
     }
     
-    private int getTotalNumberOfItems() {
+    public int getTotalNumberOfItems() {
         return items.size();
     }
 
     @Override
     public void print() {
-        System.out.println("Printing the contents of the directory - " + ItemCatagory);
+        System.out.println("Printing the inventory of type - " + ItemCatagory);
         items.forEach(InventoryStock::print);
-        System.out.println("Done printing the contents of the directory - " + ItemCatagory );
+        System.out.println("Done printing the inventory of type - " + ItemCatagory );
 
     }
 }
