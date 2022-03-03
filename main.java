@@ -18,6 +18,8 @@ public class main {
       data.print();
 
       System.out.println("Total Number of Pants available - " + Itemtype1.getTotalNumberOfItems());
+
+      
    }
 }
 
