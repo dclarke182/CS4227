@@ -5,8 +5,7 @@ public class Item implements InventoryStock {
 
     public Item(String itemName, String itemSize){
         this.itemName = itemName;
-        this.itemSize = itemSize;
-        
+        this.itemSize = itemSize;  
     }
 
     @Override
