@@ -17,12 +17,7 @@ public class ItemType implements InventoryStock {
     public void removeItem(InventoryStock item) {
         this.items.remove(item);
     }
-    public InventoryStock getItem(int position) {
-        if (position < 0 || position >= items.size()) {
-            throw new RuntimeException("Invalid position " + position);
-        }
-        return items.get(position);
-    }
+   
     
     public int getTotalNumberOfItems() {
         return items.size();
