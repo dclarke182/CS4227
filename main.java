@@ -3,10 +3,10 @@ import Inventory.*;
 
 public class main {
    public static void main(String args[]) {
-      InventoryStock item1 = new Item("Red Shirt");
-      InventoryStock item2 = new Item("Blue Shirt");
-      InventoryStock item3 = new Item("Jeans");
-      InventoryStock item4 = new Item("Joggers");
+      InventoryStock item1 = new Item("Red Shirt", "S");
+      InventoryStock item2 = new Item("Blue Shirt", "L");
+      InventoryStock item3 = new Item("Jeans", "M");
+      InventoryStock item4 = new Item("Joggers", "S");
 
       ItemType Itemtype1 = new ItemType("Pants", List.of(item3, item4));
       ItemType Itemtype2 = new ItemType("Shirts", List.of(item1, item2));
