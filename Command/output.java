@@ -14,6 +14,6 @@ public class output {
 
         setting.setCommand(visibilityOff);
         setting.settingChange();
-        //
+        ///
     }
 }
