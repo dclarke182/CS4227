@@ -1,5 +1,5 @@
 package Interceptor;
 
-public class interceptor {
+public interface interceptor {
     
 }
