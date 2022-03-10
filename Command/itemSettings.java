@@ -13,5 +13,5 @@ class ItemSettings {
     public void settingChange() {
         command.execute();
     }
-    //
+    ///
 }

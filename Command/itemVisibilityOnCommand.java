@@ -10,5 +10,5 @@ class ItemVisibilityOnCommand implements Command {
     public void execute() {
         item.itemVisibilityOn();
     }
-    //
+    ///
 }

@@ -14,5 +14,5 @@ class Item {
     public void itemVisibilityOff() {
         System.out.println(name + " is now invisible");
     }
-    //
+    ///
 }
