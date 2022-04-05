@@ -1,10 +1,10 @@
 package Command;
 
-public class output {
+public class Output {
     public static void main(String[] args) {
 
         ItemSettings setting = new ItemSettings();
-        Item clothing = new Item("Hoodie");
+        Item clothing = new Item("Hoodie", 30.00);
 
         ItemVisibilityOnCommand visibilityOn = new ItemVisibilityOnCommand(clothing);
         ItemVisibilityOffCommand visibilityOff = new ItemVisibilityOffCommand(clothing);

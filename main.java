@@ -20,4 +20,3 @@ public class main {
       System.out.println("Total Number of Pants available - " + Itemtype1.getTotalNumberOfItems());
    }
 }
-
