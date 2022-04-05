@@ -1,3 +1,5 @@
+package Visitor;
+
 public class Clothing implements Item {
 
     String itemName;

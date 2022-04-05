@@ -1,3 +1,5 @@
+package Visitor;
+
 public class Shoes implements Item {
 
     String itemName;

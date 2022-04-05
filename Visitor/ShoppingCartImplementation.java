@@ -1,3 +1,5 @@
+package Visitor;
+
 public class ShoppingCartImplementation implements ShoppingCartVisitor {
 
     @Override
