@@ -1,4 +1,4 @@
-package Inventory;
+package InventoryComposite;
 public class Item implements InventoryStock {
     private final String itemName;
     private final String itemSize;
