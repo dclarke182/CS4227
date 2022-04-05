@@ -26,4 +26,4 @@ public class Shoes implements Item {
     public double accept(ShoppingCartVisitor visitor) {
         return visitor.visit(this);
     }
-}
+}//
